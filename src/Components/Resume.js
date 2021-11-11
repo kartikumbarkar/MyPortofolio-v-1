@@ -20,7 +20,7 @@ function Resume() {
                 </div>
                 <div className="resume-content ">
                     <ResumeItem 
-                        year={'2019- 2022'} 
+                        year={'2019- 2023'} 
                         title={'Computer Science Degree'}
                         subTitle={'YCCE COLLEGE'}
                        
