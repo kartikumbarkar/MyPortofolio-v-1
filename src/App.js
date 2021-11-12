@@ -71,20 +71,21 @@ function App() {
           </div>
 
           <Switching>
-            <Route path="/" exact>
-              <HomePage />
+           <Route path="/MyPortofolio-v-1"component={HomePage} exact>
+             </Route>
+            <Route path="/"component={HomePage} exact>
+
             </Route>
-            <Route path="/about" exact>
-              <AboutPage />
+            <Route path="/about"component={AboutPage} exact>
+              
             </Route>
-            <Route path="/resume" exact>
-              <ResumePage />
+            <Route path="/resume"component={ResumePage} exact>
+             
             </Route>
-            <Route path="/portfolios" exact>
-              <PortfoliosPage />
+            <Route path="/portfolios"component={PortfoliosPage} exact>
+             
             </Route>
-            <Route path="/contact" exact>
-              <ContactPage />
+            <Route path="/contact" component={ContactPage}exact>
             </Route>
           </Switching>
 
